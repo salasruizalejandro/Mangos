@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="styleProductos.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<header>
+    <div class="caja">
+        <h1 class="tituloPrincipal"><img class="LogoMangos" src="Img/Mango-01.png" alt="LogoMango"></h1>
+    <nav>
+        <ul class="headerNavegador">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="contacto.html">Contactos</a></li>
+        </ul>
+    </div>
+    
+    </nav>
+</header>
+<main id="contenedorFormulario">
+    <form class="formulario">
+        <label for="nombreApellido">Nombre y Apellido</label>
+        <input id="nombreApellido" type="text" class="inputPadron" required>
+
+        <label for="correoElectronico">Correo Electronico</label>
+        <input id="correoElectronico" type="email" class="inputPadron" required placeholder="email@dominio.com">
+
+        <label for="telefono">Telefono</label>
+        <input id="telefono" type="tel" class="inputPadron" required placeholder="(xx) xxxx xxxx">
+
+        <label for="mensaje">Mensaje</label>
+        <textarea name="" id="mensaje" cols="70" rows="10" class="inputPadron" required></textarea>
+        
+        <fieldset>
+            <legend>¿Como le gustaria que lo contactemos?</legend>  
+            <label for="radioEmail"><input id="radioEmail" name="contacto" type="radio" value="email" >Email</label>
+            
+            
+            <label for="radiotelefono"><input id="radiotelefono" name="contacto" type="radio" value="telefono">Telefono</label>
+            
+    
+            <label for="radioWhatsApp"><input id="radioWhatsApp" name="contacto" type="radio" value="whatsApp" checked> WhatsApp</label>
+            
+        </fieldset>
+        <fieldset>
+            <legend>¿En que producto esta interesado?</legend>
+        <select id="">
+            <option value="">zumo</option>
+            <option value="">helado</option>
+            <option value="">jugo</option>
+        </select>
+        </fieldset>
+
+        <label class="checkbox" for="" ><input type="checkbox" checked>Le gustaría recibir novedades de nosotros.</label>       
+
+        <input  class="enviar" type="submit" value="Enviar Formulario">
+    </form>
+
+</main>
+<footer>
+    <img src="/Img/LogoBlancoPng-01.png" alt="LogoBlanco">
+    <p>&copy Copyright MangoSas-2022</p> 
+</footer>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,134 @@
+*{
+    font-family: 'Kanit', sans-serif;
+
+}
+
+header{
+    background-color: rgb(228, 228, 228);
+    padding: 20px 0;
+    
+}
+
+.headerNavegador{
+    display: inline-block;
+    width: 100%;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.LogoMangos{
+    width: 30%;
+}
+
+
+nav {
+    position:absolute;
+    top: 110px;
+    right: 0px;
+    width: 50%;
+
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+
+}
+
+nav a{
+    font-family: 'Kanit', sans-serif;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: darkgoldenrod;
+}
+
+
+#banner{
+    display: block;
+    margin: 40px auto;
+    width: 50%;
+    border-radius: 20px;
+}
+
+.bloquePrincipal{
+    display: block;
+    margin: 30px auto;
+    background: rgb(223, 186, 34);
+    padding: 30px;
+    width: 70%;
+    border-radius: 20px;
+   
+}
+
+.mision{
+    text-align: justify;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: bold;
+
+
+}
+.LogoMangos{
+    width: 30%;
+}
+
+.tituloPrincipal{
+    padding-left: 30px;
+    color: black;
+}
+
+.titulosCentrados{
+    display: block;
+    margin: auto;
+    padding: 30px;
+    width: 70%;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: 30px;
+}
+
+.diferenciales{
+    display: flex;
+    margin: auto;
+    padding: 30px;
+    width: 50%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.caracteristicasDife li{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+
+}
+
+.items{
+    margin: 5px;
+}
+
+.imagenDiferenciales{
+    width: 50%;
+    border-radius: 20px;    
+}
+    
+    
+    
+    

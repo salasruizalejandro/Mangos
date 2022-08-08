@@ -1,0 +1,175 @@
+*{
+    font-family: 'Kanit', sans-serif;
+
+}
+
+header{
+    background-color: rgb(228, 228, 228);
+    padding: 20px 0;
+    
+}
+
+.headerNavegador{
+    display: inline-block;
+    width: 100%;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.LogoMangos{
+    width: 30%;
+}
+
+
+nav {
+    position:absolute;
+    top: 110px;
+    right: 0px;
+    width: 50%;
+
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+
+}
+
+nav a{
+    font-family: 'Kanit', sans-serif;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: darkgoldenrod;
+}
+
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.productos li {
+    
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    height: 380px;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding:30px 20px;
+    box-sizing: border-box;
+    border-color: rgb(155, 152, 152);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+.productos li:hover{
+    border-color: darkgoldenrod;
+}
+
+.productos li:active{
+    border-color: orangered;
+}
+
+.productos li:hover h2{
+    font-size: 33PX;
+}
+
+
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.productos img{
+    height: 150px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.productoDescripcion{
+    font-size: 18px;
+}
+
+.productoPrecio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    background:rgb(155, 152, 152);
+    padding: 40px;
+    font-family: 'Kanit', sans-serif;
+}
+
+footer img{
+    width: 350px;
+    
+}
+
+footer p{
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    padding-bottom: 30px;
+    font-size: 13px;
+
+}
+
+#contenedorFormulario{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.formulario{
+    margin: 70px;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 20px;
+}
+
+.inputPadron {
+    display:block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    background: orangered;
+    border-radius: 15px;
+    border-color:white;
+    transition: 1s all;
+    cursor:pointer;
+}
+
+.enviar:hover{
+    background: orange;
+    color:black;
+    transform: scale(1.2);
+}
+
